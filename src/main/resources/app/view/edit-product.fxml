@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="editForm" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="550.0" spacing="15.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.EditProductController">
+    <children>
+        <Label text="Edit Details" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="24.0" />
+            </font>
+        </Label>
+        <HBox alignment="CENTER">
+            <children>
+                <TextField fx:id="nameField" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="250.0" promptText="Product's Name" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="TEXT" />
+                    </cursor>
+                </TextField>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER">
+            <children>
+                <TextField fx:id="brandField" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="250.0" promptText="Brand" HBox.hgrow="ALWAYS">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="TEXT" />
+                    </cursor>
+                </TextField>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER">
+            <children>
+                <TextField fx:id="supplierField" alignment="TOP_LEFT" minHeight="-Infinity" minWidth="-Infinity" prefHeight="32.0" prefWidth="250.0" promptText="Supplier">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="TEXT" />
+                    </cursor>
+                </TextField>
+            </children>
+        </HBox>
+        <HBox alignment="CENTER_LEFT" spacing="10.0">
+            <children>
+                <TextField fx:id="priceField" minWidth="-Infinity" prefWidth="140.0" promptText="\$0.00">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="TEXT" />
+                    </cursor>
+                </TextField>
+                <TextField fx:id="quantityField" minWidth="-Infinity" prefWidth="100.0" promptText="Qnt.">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="TEXT" />
+                    </cursor>
+                </TextField>
+            </children>
+        </HBox>
+      <HBox fx:id="attributeContainer" alignment="CENTER" />
+        <FlowPane fx:id="addAttributeContainer" alignment="CENTER_LEFT">
+            <children>
+                <Button fx:id="addAttributeButton" mnemonicParsing="false" style="-fx-background-radius: 100;" text="+" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+        </FlowPane>
+        <HBox alignment="CENTER" spacing="15.0">
+            <children>
+                <Button fx:id="cancelButton" minHeight="-Infinity" minWidth="-Infinity" mnemonicParsing="false" prefHeight="32.0" prefWidth="120.0" text="Cancel" textAlignment="CENTER" wrapText="true" HBox.hgrow="SOMETIMES">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+                <Button fx:id="saveButton" mnemonicParsing="false" prefHeight="32.0" prefWidth="120.0" text="Save" textAlignment="CENTER" wrapText="true">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                    <cursor>
+                        <Cursor fx:constant="HAND" />
+                    </cursor>
+                </Button>
+            </children>
+            <padding>
+                <Insets top="10.0" />
+            </padding>
+        </HBox>
+    </children>
+    <padding>
+        <Insets left="150.0" right="150.0" />
+    </padding>
+</VBox>

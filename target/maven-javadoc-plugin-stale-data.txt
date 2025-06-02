@@ -1,0 +1,56 @@
+-J-Duser.language=
+-J-Duser.country=
+@options
+@packages
+@argfile
+--class-path
+'/home/vitor/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13.jar:/home/vitor/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13.jar:/home/vitor/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13.jar:/home/vitor/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13.jar:/home/vitor/.m2/repository/org/xerial/sqlite-jdbc/3.49.1.0/sqlite-jdbc-3.49.1.0.jar:/home/vitor/.m2/repository/com/mysql/mysql-connector-j/9.3.0/mysql-connector-j-9.3.0.jar:/home/vitor/.m2/repository/com/google/protobuf/protobuf-java/4.29.0/protobuf-java-4.29.0.jar'
+--module-path
+'/home/vitor/.m2/repository/org/openjfx/javafx-base/13/javafx-base-13-linux.jar:/home/vitor/.m2/repository/org/openjfx/javafx-controls/13/javafx-controls-13-linux.jar:/home/vitor/.m2/repository/org/openjfx/javafx-fxml/13/javafx-fxml-13-linux.jar:/home/vitor/.m2/repository/com/google/code/gson/gson/2.10/gson-2.10.jar:/home/vitor/.m2/repository/org/openjfx/javafx-graphics/13/javafx-graphics-13-linux.jar:/home/vitor/NetBeansProjects/MyInventory/target/classes'
+--patch-module
+app='/home/vitor/NetBeansProjects/MyInventory/src/main/java'
+-encoding
+'UTF-8'
+-protected
+-source
+'11'
+--module-source-path
+'/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/src'
+-author
+-bottom
+'Copyright &#169; 2025. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'MyInventory 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/en/java/javase/11/docs/api' '/home/vitor/NetBeansProjects/MyInventory/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'MyInventory 1.0-SNAPSHOT API'
+app
+'/home/vitor/NetBeansProjects/MyInventory/src/main/java/module-info.java'
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/element-list = 1748894798983
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/overview-tree.html = 1748894799028
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/allclasses-index.html = 1748894799041
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/allpackages-index.html = 1748894799044
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/module-search-index.js = 1748894799044
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/package-search-index.js = 1748894799045
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/type-search-index.js = 1748894799046
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/member-search-index.js = 1748894799046
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/tag-search-index.js = 1748894799046
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/index-all.html = 1748894799053
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/search.html = 1748894799057
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/index.html = 1748894799059
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/help-doc.html = 1748894799067
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/stylesheet.css = 1748894799069
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/script.js = 1748894799070
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/copy.svg = 1748894799070
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/link.svg = 1748894799071
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/search.js = 1748894799072
+/home/vitor/NetBeansProjects/MyInventory/target/reports/apidocs/search-page.js = 1748894799073

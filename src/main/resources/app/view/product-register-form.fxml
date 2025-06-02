@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox fx:id="attributeContainer" alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" spacing="12.0" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="app.controller.AddProductController">
+    <children>
+        <Label alignment="CENTER" contentDisplay="CENTER" text="Product Details" textAlignment="CENTER" wrapText="true">
+            <font>
+                <Font size="24.0" />
+            </font>
+            <VBox.margin>
+                <Insets bottom="12.0" />
+            </VBox.margin>
+        </Label>
+        <TextField fx:id="nameField" promptText="Product Name">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+      <TextField fx:id="brandField" layoutX="40.0" layoutY="99.0" promptText="Product Brand">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </TextField>
+        <TextField fx:id="priceField" layoutX="40.0" layoutY="112.0" promptText="Price">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="quantityField" layoutX="40.0" layoutY="225.0" promptText="Quantity">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <TextField fx:id="supplierField" layoutX="40.0" layoutY="148.0" promptText="Supplier">
+            <font>
+                <Font size="14.0" />
+            </font>
+        </TextField>
+        <FlowPane fx:id="addAttributeContainer" hgap="12.0" VBox.vgrow="ALWAYS">
+            <children>
+                <HBox alignment="CENTER_LEFT" fillHeight="false" spacing="5.0">
+                    <children>
+                        <Button fx:id="addAttributeButton" mnemonicParsing="false" text="+" textAlignment="CENTER" />
+                    </children>
+                </HBox>
+                <Label text="Attributes" />
+            </children>
+        </FlowPane>
+        <HBox alignment="CENTER" spacing="20.0">
+            <children>
+                <Button fx:id="cancelButton" cancelButton="true" mnemonicParsing="false" text="Cancel" textAlignment="CENTER">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Button>
+                <Button fx:id="registerProductButton" alignment="CENTER" contentDisplay="CENTER" defaultButton="true" mnemonicParsing="false" text="Register" textAlignment="CENTER">
+                    <font>
+                        <Font size="16.0" />
+                    </font>
+                </Button>
+            </children>
+        </HBox>
+    </children>
+    <padding>
+        <Insets bottom="30.0" left="30.0" right="30.0" top="30.0" />
+    </padding>
+</VBox>
