@@ -11,6 +11,7 @@ public class User {
     public User(String username, String passwordHash, String role) {
         this.username = username;
         this.passwordHash = passwordHash;
+        this.role = role;
     }
 
     public User(int id, String username, String passwordHash, String createdAt, String role) { // Implement this later in the UserService
